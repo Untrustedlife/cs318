@@ -1,0 +1,13 @@
+.square {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#highlighted{
+    border-color: aqua;
+}
