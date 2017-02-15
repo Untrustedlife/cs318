@@ -1,0 +1,22 @@
+body{
+    background-image: url(images/farm.jpg);
+    background-repeat: no-repeat;
+}
+div{
+     background-image: url(images/cow-1.jpg);
+     background-repeat: no-repeat;   
+     margin-top: 533px;
+     background-color: antiquewhite;
+     height: 100px;
+    text-align: right
+}
+
+h1{
+    color: firebrick;
+    margin-bottom: 0
+        
+}
+
+a{
+    color: orange;
+}

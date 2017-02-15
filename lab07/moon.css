@@ -1,0 +1,13 @@
+body {
+    background-image: url(images/Sweet.jpg);
+    color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px
+}
+
+ul {
+    list-style-image: url(images/moon.png);
+}
