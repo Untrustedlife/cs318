@@ -1,15 +1,18 @@
 body{
  background-color: lightcyan; 
 }
+
 h3{
     font-size: 24pt;
     font-family: 'Anton', sans-serif;
     text-shadow: 1px 1px 1px #000000;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 
 .answer{
       font-family: 'Crimson Text', serif;  
+      margin-bottom: 0px;
+      margin-top: 0px;
 }
