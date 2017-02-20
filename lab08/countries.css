@@ -1,0 +1,38 @@
+body{
+    background-color: azure;
+}
+
+.stamp {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    margin: 10px;
+    border-style: dashed;
+    border-color: aquamarine;
+    box-shadow: 10px 10px 5px #888888;
+    background-position: top right, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50px auto, auto 300px;
+}
+
+#id1{
+    background-color: black;
+    background-image: url("image/canadaFlag.gif"), url("image/canada.jpg");
+}
+
+#id2{
+    background-color: yellow;
+    background-image: url("image/russiaflag.gif"), url("image/russia.jpg");
+}
+
+#id3{
+    background-color: orange;  
+    background-image:  url("image/laosFlag.gif"), url("image/laos.jpg");
+}
+
+#id4{
+    background-color: red; 
+    background-image:  url("image/ukFlag.gif"), url("image/uk.jpg");
+}

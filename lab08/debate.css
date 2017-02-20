@@ -1,0 +1,14 @@
+.blurb{
+    box-sizing: border-box;
+    width: 90%;
+    height: 300px;
+}
+
+#left {
+    background-color: green;
+    
+}
+
+#right {
+    background-color: red;
+}
