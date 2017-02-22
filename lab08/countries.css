@@ -14,7 +14,7 @@ body{
     box-shadow: 10px 10px 5px #888888;
     background-position: top right, center;
     background-repeat: no-repeat, no-repeat;
-    background-size: 50px auto, auto 300px;
+    background-size: 100px auto, auto 300px;
 }
 
 #id1{
