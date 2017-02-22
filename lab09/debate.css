@@ -1,0 +1,48 @@
+.blurb{
+    box-sizing: border-box;
+    width: 90%;
+    height: 300px;
+    box-shadow: 10px 10px 5px #888888;
+    font-family: 'Baloo', cursive;
+    border-color: blueviolet;
+    border: 1px;
+    border-style: solid;
+    min-height: 202px;
+    min-width: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#left {
+    background-color: green;
+    background-image: url(image/alienRight.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto, 200px;
+    border-radius: 0 100px 100px 0;
+    
+}
+
+#right {
+    background-color: red;
+    margin-left: auto;
+    background-image: url(image/safeDogLeft.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto, 200px;
+    border-radius: 100px 0 0 100px;
+}
+
+body {
+    margin: 0px;
+}
+
+h1{
+      background-image: linear-gradient(to bottom, green, red);
+      box-shadow: inset 0px 5px 100px white;
+      text-align: center;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin-bottom: 30px;
+
+}
