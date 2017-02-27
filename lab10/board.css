@@ -1,8 +1,8 @@
-* {
+*{
   box-sizing: border-box;
 }
 
-body {
+body{
     background-image: url(Images/board.jpg);
     background-repeat: repeat;
 }
@@ -12,7 +12,7 @@ body {
    position: relative; 
    border: 20px solid #fff;
    border-bottom: 45px solid #fff;
-
+   background-color: white;
 }
 
 .pin{
@@ -26,15 +26,12 @@ body {
     height: 100px;    
 }
 
-.image img{
-  width: 400px;
-  height: 400px;
+.image{
+    width: 400px;
+    height: 400px;
 }
 
-.image{
-    
-}
 
 .label{
-    
+    position: absolute;
 }
