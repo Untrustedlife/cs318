@@ -5,6 +5,13 @@
 body{
     background-image: url(Images/board.jpg);
     background-repeat: repeat;
+    font-family: Marker;
+
+}
+
+@font-face {
+  font-family: Marker;
+  src: url(Images/PermanentMarker.ttf);
 }
 
 .photo{
@@ -13,6 +20,8 @@ body{
    border: 20px solid #fff;
    border-bottom: 45px solid #fff;
    background-color: white;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   margin-left: 75px;
 }
 
 .pin{
@@ -34,4 +43,18 @@ body{
 
 .label{
     position: absolute;
+    margin-left: 100px;
+}
+
+
+#ph1{
+transform: rotate(5deg);  
+}
+
+#ph2{
+transform: rotate(-5deg);    
+}
+
+#ph3{
+transform: rotate(15deg);    
 }

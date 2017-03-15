@@ -1,0 +1,15 @@
+body{
+    
+}
+
+.photo{
+    width: 100px;
+    height: 100px;
+}
+.photo img{
+    width: 100px;
+    height: 100px;
+}
+.photo:hover {
+    
+}
