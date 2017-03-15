@@ -1,0 +1,51 @@
+.box{
+    align-content: center;
+    text-align: center;
+    width: 99%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box p{
+    font-size: 30px
+}
+
+.boxOptions{
+    align-content: center;
+    text-align: center;
+    width: 99%;
+    height: 600px;
+    background-color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.boxOptions a{
+    font-size: 30px
+}
+
+.boxOptions ul{
+    list-style: none;
+}
+
+
+@media only screen and (max-width: 200px) {
+.box p{
+    font-size: 10px
+    } 
+    
+.box {
+    height: 400px;
+    }  
+    
+.boxOptions{
+    height: 300px;
+    background-color: brown;
+    text-align: left;    
+    align-content: left;
+    }
+}
