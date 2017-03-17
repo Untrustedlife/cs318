@@ -2,3 +2,63 @@ nav ul{
     list-style: none;
     padding-left: 0px;
 }
+
+
+nav {
+    float:  left;
+    background-color: aqua;
+    margin: 0px;   
+    width: 11em;
+}
+
+main{
+    background-color: aquamarine;    
+    margin: 0px;
+    padding: 1em;
+    position: absolute;
+    left: 11em;
+    right: 0;
+    float: left;
+   font-family: serif;
+}
+
+header{
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 1em;    
+}
+
+.quote{
+    background-color: aqua;   
+    float: right;
+    margin: 0px;
+    width: 11em;
+    font-size: 22px;
+   font-family: fantasy;
+}
+
+.poem{
+background-color: aquamarine;    
+white-space: pre-wrap;
+float: inherit;
+}
+
+main h2{
+   font-family: sans-serif;
+}
+
+@media only screen and (max-width: 22px) {
+    main{
+        position: static;
+        clear: both;
+        
+    }
+    
+    nav li{
+        display: inline-block;
+    }
+    
+    nav{
+        display: inline-block;
+    }
+}
