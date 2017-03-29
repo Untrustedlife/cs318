@@ -1,0 +1,86 @@
+body{
+    background-image: linear-gradient(to top, orange 0%, bisque 100%), url('w3css.gif');
+}
+
+.bar{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    margin-top: -5px;
+    opacity: .9;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.bar img{
+    float: right;
+    left: 30px;
+}
+
+.square{
+    float: left;
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    border-top: 100px;
+    border-style: solid;
+   border-color: black;
+   border-width: 10px;
+   margin: 40px  
+}
+
+#square1{
+    float: right;
+    margin: 0px  
+}
+
+#square3{
+    float: right;
+   margin: 40px
+}
+
+.squareWithin{
+    background-color: pink;
+    width: 480px;
+    height: 280px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    
+}
+
+.squareWithin1{
+    background-color: pink;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.squareWithin2{
+    background-color: pink;
+    width: 480px;
+    height: 280px;
+    position: relative;
+    left: -400px;
+    top: 10px;
+}
+
+.image{
+    text-align: center;
+    background-image: url(images/seal-full.jpg);
+    background-size: 150px 150px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    mix-blend-mode: multiply;
+    margin-left: 40%;
+    margin-right: 35%;
+}
+
+h1{
+    text-align: left;
+}

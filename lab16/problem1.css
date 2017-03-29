@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+ul{
+   color: white; 
+  
+}
+ul li{
+    margin-top: 0px;
+}
+
+ol{
+    color: white;
+}
+
+.colored{
+    width: 75px;
+    height: 20px;
+    background-color: red;
+    margin-top: -15px;
+    margin-bottom: 2.5px;
+}
+#colored2{
+    background-color: orange;
+}
+#colored3{
+    background-color: yellow;
+}
+#colored4{
+    background-color: green;
+}
+#colored5{
+    background-color: royalblue;
+}
+
+.shape{
+   width: 130px; 
+   height: 130px; 
+   background: white; 
+   margin-bottom: 30px;
+   margin-left: 30px;
+}
+
+#circle{
+   border-radius: 70px;   
+}
+
+
+#border{
+   border-style: solid;
+   border-color: white;
+   border-width: 10px;
+   background-color: black;
+   border-left-color: dimgray;
+   border-right-color: dimgray;
+   border-bottom-color: dimgray;
+   display: inline-block; 
+   margin-bottom: -1px;
+   margin-top: 35px;
+}
+
+#border2{
+      border-style: solid;
+   border-color: white;
+   border-width: 10px;
+   background-color: black; 
+    border-left-color: dimgray;
+    border-right-color: dimgray;
+   display: inline-block;
+   margin-bottom: -1px;
+   margin-top: 35px;
+}
+
+#border3{
+     border-style: solid;
+   border-color: white;
+   border-width: 12px;
+   background-color: black;  
+    border-left-color: dimgray;
+   display: inline-block;
+   margin-bottom: -1px;
+   margin-top: 35px;
+}
+
+#border4{
+border-style: solid;
+   border-color: white;
+   border-width: 12px;
+   background-color: black;
+   display: inline-block;
+   margin-bottom: -1px;
+   margin-top: 35px;
+}
+
