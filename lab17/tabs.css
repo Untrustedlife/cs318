@@ -1,0 +1,79 @@
+#tabparent{
+    position: relative;
+    display: inline-block;
+}
+
+#firstButton{
+}
+
+#firstButton:focus ~ #tabview0 {
+    display: block;
+    background-color: darkblue;
+}
+
+#secondButton{
+}
+
+#secondButton:focus ~ #tabview1 {
+    display: block;
+    background-color: darkblue;
+}
+
+#thirdButton{
+}
+
+#thirdButton:focus ~ #tabview2 {
+    display: block;
+    background-color: darkblue;
+}
+
+.tabbutton{
+    display: inline-block;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: aquamarine;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    margin: -2px;
+    padding: 0px;
+    color: white;
+}
+
+.tabbutton:hover{
+    cursor: pointer;
+}
+
+.tabbutton:focus{               
+    background-color: darkblue;
+}
+
+
+body{
+    background-color: azure;
+}
+
+.tabview{
+    position: absolute;
+    display: block;
+    margin: 0px;
+    width: 600px;
+    height: 51px;
+    top: 47px;
+    background-color: darkblue;
+}
+#tabview0{
+    background-color: aquamarine;
+    left: -2px;
+    display: none;
+}
+#tabview1{
+    background-color: aquamarine;   
+    left: -2px;
+display: none;
+}
+#tabview2{
+    background-color: aquamarine;    
+    left: -2px;
+    display: none;
+}

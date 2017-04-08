@@ -120,18 +120,38 @@ a:hover {
         border-left: 1px solid white;
     }
     .label .menu{
-    display: none;
-    background-color: grey;
-    width: 150px;
-    height: 200px;
-    box-shadow: -5px 5px #000000;
-    bottom:auto;
-        
+        background-color: grey;
+        width: 200px;
+        height: 135px;
+        box-shadow: -5px 5px #000000;
         right: 0;
-        
-        position:absolute;
+        top: 30px;
+        position:relative;
+        display: none;
     }
     
+    .label .menu ul{
+        margin: 0px;
+    }
     
+.label:hover div{
+    display: block;
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    text-align: left;
+    bottom:auto;
+    margin: 0px;
+    padding: 0px;
+}
+    
+.label:hover div a{
+    top: -10;
+    margin-top: 5px;
+    padding: 0px;
+    text-align: left;
+    border-bottom: 0px solid white;
+    margin-left: -40px;
+}    
     
 }
