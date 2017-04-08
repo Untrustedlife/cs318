@@ -20,7 +20,7 @@ header{
     color: white;
     height: 50px;
     width: 105%;
-    padding: 0px;
+    padding: 5px 0 5px 10px;
     margin-top: -10px;
     margin-left: -8px;
 }
@@ -47,7 +47,7 @@ nav{
     color: white;
     height: 25px;
     width: 105%;
-    padding: 0px;
+    padding: 5px 0 0 10px;
     margin-top: -10px;
     margin-left: -8px;
 }
@@ -55,12 +55,15 @@ nav{
 nav ul{
     padding-left: 0px;
     margin-top: 0px;
+    padding: 5px;
 }
 
-.label div{
+.label .menu{
     display: none;
     background-color: grey;
     width: 150px;
+    box-shadow: 5px 5px #000000;
+    bottom:auto;
 }
 
 .label:hover div{
@@ -68,10 +71,63 @@ nav ul{
     text-align: left;
     position: absolute;
     top: 18px;
-    text-align: left; 
+    text-align: left;
+    bottom:auto;
 }
 
 .label:hover{
     background-color: grey;
     cursor: pointer;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
+a:link:last-child {
+    border: none;
+}
+a:hover {
+    background-color: lightgray;
+}
+ header div{ 
+     display: none;
+}
+
+@media (max-width: 40em) {
+    nav {
+        display: none;
+    }
+    header div{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        color: white;
+        display:block;
+        font-size: 25pt;
+        background-color: gray;
+        text-align: center;
+        padding: 4px;
+        border-left: 1px solid white;
+    }
+    .label .menu{
+    display: none;
+    background-color: grey;
+    width: 150px;
+    height: 200px;
+    box-shadow: -5px 5px #000000;
+    bottom:auto;
+        
+        right: 0;
+        
+        position:absolute;
+    }
+    
+    
+    
 }
