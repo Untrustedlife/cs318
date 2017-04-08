@@ -2,6 +2,10 @@ tr:nth-child(even){
     background-color: lightgrey;
 }
 
+table{
+        border-collapse: collapse;
+}
+
 th{
     background-color: white;
 }
