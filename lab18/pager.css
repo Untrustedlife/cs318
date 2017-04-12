@@ -5,7 +5,12 @@ body{
 #container{
     background-color: red;
     position: relative;
-    height: 900px;
+    height: 800px;
+}
+
+
+#container input{
+    display: none;
 }
 
 .page{
@@ -36,6 +41,23 @@ input[type="radio"]:checked + .page {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
-    top: 800px;
-    width: 30px;
+    top: 700px;
+    width: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+label:hover{
+    cursor: pointer;
+}
+#show1:checked ~ #controls label:nth-child(1){
+    color: red;
+}
+
+#show2:checked ~ #controls label:nth-child(2){
+    color: red;
+}
+
+#show3:checked ~ #controls label:nth-child(3){
+    color: red;
 }
