@@ -1,0 +1,63 @@
+body{
+ 
+}
+
+.contactForm{
+   display: block;
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.contactForm textarea{
+    width: 350px;
+    height: 200px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 10px
+}
+
+.sendButton{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-color: aqua;
+    position: absolute;
+    top: 350px;
+    left: 300px;   
+    text-align: center;
+    
+}
+
+.sendButton h2{
+  display: inline-block;
+  margin-top: 10px;
+  
+}
+
+.label{
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 30px;
+    font-weight: bold;
+    margin-top: 10px
+   
+}
+
+
+.label input{
+    display: inline-block;
+    position: absolute;
+    left: 95px;
+    height: 15px
+}
+
+#subject {
+    display: inline-block;
+    position: relative;
+    left: -9px;
+}
