@@ -24,7 +24,13 @@ body{
 }
 
 .sendButton{
+
+    
+}
+
+.sendButton input{
     display: inline-block;
+    margin-top: 1px;
     width: 60px;
     height: 30px;
     background-color: aqua;
@@ -32,13 +38,6 @@ body{
     top: 380px;
     left: 325px;   
     text-align: center;
-    
-}
-
-.sendButton h2{
-  display: inline-block;
-  margin-top: 1px;
-  
 }
 
 .label{
@@ -52,9 +51,6 @@ body{
     position: relative;
     
 }
-
-
-
 
 .label input{
     display: inline-block;

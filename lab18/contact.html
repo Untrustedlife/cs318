@@ -5,24 +5,26 @@
     </head>
     <body>
         <div class="contactForm">
+            <form action="https://formspree.io/hammmr0216@uwec.edu" method="POST">
             <div class="label">
                 <div id="name">Name:</div>
-                <input type="text" name="fname">
+                <input type="text" name="_subject">
             </div>
             <br>
             <div class="label"> 
                 <div id="email">Email:</div>
-                <input type="text" name="femail">
+                <input type="email" name="_replyto">
             </div>
             <br>
             <div class="label" > 
                 <div id="subject">Subject:</div>
                 <input type="text" name="fsubject">
             </div>
-            <textarea placeholder="Whats on your mind?" name="complaint"></textarea>
+            <textarea placeholder="Whats on your mind?" name="text"></textarea>
         <div class = "sendButton">
-        <h2>Send</h2>
+            <input type="submit" value="Send">
         </div>
-        </div>
+            </form>                
+        </div>            
     </body>
 </html>
