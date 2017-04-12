@@ -25,42 +25,60 @@ body{
 
 .sendButton{
     display: inline-block;
-    width: 80px;
-    height: 50px;
+    width: 60px;
+    height: 30px;
     background-color: aqua;
     position: absolute;
-    top: 350px;
-    left: 300px;   
+    top: 380px;
+    left: 325px;   
     text-align: center;
     
 }
 
 .sendButton h2{
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 1px;
   
 }
 
 .label{
     display: inline-block;
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 50px;
     font-weight: bold;
-    margin-top: 10px
-   
+    margin-top: 20px;
+    text-align: center;
+    top: -20px;
+    position: relative;
+    
 }
+
+
 
 
 .label input{
     display: inline-block;
     position: absolute;
     left: 115px;
-    height: 15px;
-    width: 38%;    
+    height: 25px;
+    width: 250px;    
 }
 
 #subject {
     display: inline-block;
     position: relative;
-    left: -9px;
+    left: -14px;
+    top: 25px;
+}
+
+#email{
+    position: relative;
+    display: inline-block;
+    top: 25px;
+}
+
+#name{
+    position: relative;
+    display: inline-block;
+    top: 25px;
 }
