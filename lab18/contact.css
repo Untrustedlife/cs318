@@ -6,7 +6,7 @@ body{
    display: block;
     width: 400px;
     height: 400px;
-    background-color: beige;
+    background-color: grey;
     border-radius: 10px;
     padding-left: 10px;
     padding-top: 10px;
@@ -18,7 +18,9 @@ body{
     text-decoration: none;
     position: relative;
     left: 20px;
-    top: 10px
+    top: 20px;
+    color: dimgrey;
+    font-size: 20px
 }
 
 .sendButton{
@@ -42,7 +44,7 @@ body{
 .label{
     display: inline-block;
     font-size: 15px;
-    padding-left: 30px;
+    padding-left: 50px;
     font-weight: bold;
     margin-top: 10px
    
@@ -52,8 +54,9 @@ body{
 .label input{
     display: inline-block;
     position: absolute;
-    left: 95px;
-    height: 15px
+    left: 115px;
+    height: 15px;
+    width: 38%;    
 }
 
 #subject {
