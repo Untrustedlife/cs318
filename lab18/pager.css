@@ -11,4 +11,23 @@ body{
 .page{
     width: 100%;
     height: inherit;
+    background-size: auto;
+    position: absolute;
+    display: none;
+}
+
+#page1{
+    background-image: url(images/background-1.jpg)
+}
+
+#page2{
+    background-image: url(images/background-2.jpg)
+}
+
+#page3{
+    background-image: url(images/background-3.jpg)
+}
+
+input[type="radio"]:checked + .page {
+  display: block;
 }
