@@ -31,3 +31,11 @@ body{
 input[type="radio"]:checked + .page {
   display: block;
 }
+
+#controls{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 800px;
+    width: 30px;
+}
