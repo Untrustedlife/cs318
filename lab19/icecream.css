@@ -1,0 +1,56 @@
+body{
+ 
+}
+
+.contactForm{
+   display: block;
+    width: 700px;
+    height: 400px;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    padding-left: 0px;
+    padding-top: 0;
+    float: left;
+}
+
+h1{
+    text-align: center;
+}
+
+.sendButton input{
+    width: 10%;
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+}
+
+label{
+    float: left;
+    clear: left;
+    width: 30%;
+    text-align: right;
+    font-size: 20px;
+}
+
+input{
+    float: left;
+    width: 60%;
+    margin-bottom: 20px
+}
+
+select{
+    float: left;
+    width: 60%;
+    margin-bottom: 10px;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+input[type="checkbox"]{
+    width: 3%;
+}
+
+.hidden{
+    color: cornflowerblue;
+}
