@@ -1,0 +1,16 @@
+form ol li ol{
+    list-style: upper-alpha;
+}
+
+form ol li ul{
+    list-style: none;
+}
+
+form ol li textarea{
+    width: 80%;
+    height: 200px;
+}
+
+body{
+    background-color: beige;
+}

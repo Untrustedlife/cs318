@@ -1,22 +1,88 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="quiz.css">
     </head>
     <body>
+        <h1>The Stellaris Mythos</h1>
+        <form action="https://formspree.io/hammmr0216@uwec.edu" method="POST">
         <ol>
             <li>What are the blorg?
-                    <select>
-                    </select>
-            </li>
-            <li>What phenotypes are currently avilable?
+                <br>
+                Check One.
                 <ol>
+                <li>
+                    <input type="radio" name="Blorg" value="Blorg 1"> A fungoid race bent on assimilating everyone in the galaxy.
+                </li>                
+                <li>
+                    <input type="radio" name="Blorg" value="Blorg 2"> A fungoid race bent on befriending everyone in the galaxy.
+                </li>
+                <li>
+                    <input type="radio" name="Blorg" value="Blorg 3"> A robotic race bent on assimilating everyone the galaxy.
+                </li>
+                <li>    
+                    <input type="radio" name="Blorg" value="Blorg 4"> A robotic race bent on befriending everyone the galaxy.
+                </li>                
                 </ol>
             </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <br>
+            <li>Which of these phenotypes (Read: Alien types)     are represented in the stellaris universe? 
+                <br>
+                Check All That Apply.
+                <ol>
+                <li>
+                    <input type="checkbox" name="phenotypes" value="A">
+                    Reptillian
+                </li>
+                <li>
+                    <input type="checkbox" name="phenotypes" value="B">   Humanoid 
+                </li>
+                <li>
+                    <input type="checkbox" name="phenotypes" value="C">   Arthropoid 
+                </li>
+                <li>
+                    <input type="checkbox" name="phenotypes" value="D">   Mammalian 
+                </li>
+                <li>
+                    <input type="checkbox" name="phenotypes" value="E">   Molluscoid 
+                </li>
+                <li>
+                    <input type="checkbox" name="phenotypes" value="F">   Fungoid 
+                </li>
+                <li>
+                    <input type="checkbox" name="phenotypes" value="G">   Plantoid 
+                </li>       
+                <li>
+                    <input type="checkbox" name="phenotypes" value="H">   Robotic 
+                </li>                    
+                </ol>
+            </li>
+            <br>
+            <li>
+                One of the precurser races present in the stellaris mythos is the
+                 <input type="text" name="blankfill">.
+            </li>
+            <br>
+            <li>
+                Prethoryn means "Survivor" why is this significant? What did they survive?
+                <br>
+                <textarea name="Essay:">
+                </textarea>
+            </li>
+            <br>
+            <li>
+                The Unbidden were able to locate the dimension in which stellaris takes place due to the immense carelessness of one of the newly emerging empires around the year 2350.
+                <ul>
+                <li>
+                    <input type="radio" name="TrueOrFalse" value="True"> True   
+                </li>
+                <li>
+                    <input type="radio" name="TrueOrFalse" value="False"> False   
+                </li>
+                </ul>
+            </li>
         </ol>
+                <input type="submit" value="Submit Quiz">
+        </form>
     </body>
 </html>
