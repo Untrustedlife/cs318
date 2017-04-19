@@ -1,0 +1,50 @@
+body{
+    background-color: floralwhite;
+}
+
+img{
+    box-sizing: border-box;
+    width: 129px;
+    height: 129px;
+    margin: 10px;
+    float: left;
+    z-index: 0;
+    transition-duration: 2000ms;
+    transition-timing-function: ease-in-out;
+    position: relative;
+    transition-property: transform opacity z-index;
+}
+
+img:nth-child(4n+5){
+    float: left;
+    clear: left;
+}
+
+#flowerbed:hover img{
+  opacity: .1;
+z-index: 0;
+}
+
+#flowerbed img:hover{
+  opacity: 1;
+    z-index: 1;
+  transform: scale(1.5) rotate(180deg);
+  transition-property: transform opacity z-index;
+  transition-duration: 2000ms;
+  transition-timing-function: ease-in-out;
+}
+
+#flowerbed{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate (-50%, 0);
+}
+
+footer{
+    position: absolute;
+    margin: 0;
+    bottom: 0px;
+    right: 0px;
+    box-sizing: border-box;
+}
