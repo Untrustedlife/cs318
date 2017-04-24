@@ -48,7 +48,7 @@ ul {
     margin: 0;
     padding: 10px;
     display: inline-block;
-    height: 100px;
+    height: 25x;
     background-color: rgba(255,255,255,.4);
     width: 102%;
     position: relative;
@@ -59,7 +59,7 @@ ul {
 li {
     display: inline-block;
     width: 19%;
-    height: 75px;
+    height: 25px;
 }
 
 a {
