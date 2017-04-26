@@ -123,14 +123,12 @@ header{
     border-radius: 10px;
 }
 
-@media screen and (min-width: 480px) {
-    body {
-    }
-}
 table{
-left: 20%;
+
 position: relative;
-width: 60%;
+width: 100%;
+padding-left: 5%
+padding-right: 5%
 }
 
 table img{
