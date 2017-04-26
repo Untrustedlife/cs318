@@ -6,10 +6,46 @@ body{
 }
 
 .gameBox{
+    top: 30px;
     display: inline-block;
-    position: relative;    
+    width: 90%;
+    height: 900px;
+    left: 5%;
+    position: relative;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
 }
 
+.gameBox h1{
+    text-align: center;
+    opacity: 1;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.gameBox p{
+    display: inline-block;
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    left: 4%;
+    position: relative;
+    word-wrap: break-word;
+    opacity: 1;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+
+.gameBox table{
+    text-align: center;
+}
+
+.gameBox img{
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
 .bar{
     display: inline-block;    
     position: relative;
@@ -83,4 +119,25 @@ header{
     margin: 0px;
     padding: 0px;
     width: 100%;
+}
+
+table{
+left: 20%;
+position: relative;
+width: 60%;
+}
+
+table img{
+    width: 31%;
+}
+
+table td{
+    display: inline-block;
+
+}
+
+table tr{
+    display: block;
+    position: relative;
+    background-color: black
 }
