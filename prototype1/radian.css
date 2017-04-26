@@ -112,6 +112,10 @@ a {
     padding-top: 10px
 }
 
+ul li:hover {
+  background-color: blueviolet;
+}
+
 header{
     position: relative
     display: inline-block;
