@@ -1,0 +1,44 @@
+
+.gameBox{
+    top: 30px;
+    display: inline-block;
+    width: 90%;
+    height: 450px;
+    left: 5%;
+    position: relative;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 10px;
+}
+
+.gameBox h1{
+    text-align: center;
+    opacity: 1;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.gameBox p{
+    display: inline-block;
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    left: 4%;
+    position: relative;
+    word-wrap: break-word;
+    opacity: 1;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+
+.gameBox table{
+    text-align: center;
+}
+
+.gameBox img{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    margin-top: 5px;
+}
