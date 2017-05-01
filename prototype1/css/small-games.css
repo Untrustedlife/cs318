@@ -42,3 +42,9 @@
     width: 80%;
     margin-top: 5px;
 }
+
+@media only screen and (max-width: 853px) {
+}
+
+@media only screen and (max-width: 557px) {
+}
