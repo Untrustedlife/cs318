@@ -129,11 +129,10 @@ header{
 }
 
 table{
-
-position: relative;
-width: 100%;
-padding-left: 5%
-padding-right: 5%
+    position: relative;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 table img{
@@ -142,11 +141,17 @@ table img{
 
 table td{
     display: inline-block;
-
+    margin-left: 40px;
 }
 
 table tr{
     display: block;
     position: relative;
     background-color: black
+}
+
+@media only screen and (max-width: 853px) {
+}
+
+@media only screen and (max-width: 557px) {
 }
