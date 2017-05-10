@@ -68,6 +68,13 @@ body{
 
 #gameInfo p{
 text-align: center;
+color: white;
+}
+
+
+#gameInfo table tr td a:hover{
+background-color: grey;
+color: black;
 }
 
 
