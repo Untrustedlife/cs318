@@ -77,6 +77,9 @@ background-color: grey;
 color: black;
 }
 
+#gameInfo table tr td a{
+    left: -2.5%;
+}
 
 @media only screen and (max-width: 590px) {
 #gameInfo table td{
