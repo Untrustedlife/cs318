@@ -1,9 +1,16 @@
 
+body{
+    background-image: url(../images/frac1.png);
+    background-repeat: repeat-x repeat-y;
+    background-size: 1920px 1080px;
+    
+}
+
 .gameBox{
     top: 30px;
     display: inline-block;
     width: 90%;
-    height: 450px;
+    height: 500px;
     left: 5%;
     position: relative;
     color: white;
@@ -18,33 +25,56 @@
     margin: 0px;
 }
 
+
+#noGames {
+    font-size: 30px;
+    text-align: center;
+    height: 250px;
+}
+
 .gameBox p{
     display: inline-block;
-    width: 90%;
+    width: 100%;
     height: 50px;
     padding: 10px;
-    left: 4%;
+    left: inherit;
     position: relative;
     word-wrap: break-word;
     opacity: 1;
     padding-top: 0px;
     margin-top: 0px;
-    
+    left: -4%;
 }
 
 .gameBox table{
     text-align: center;
+    float: bottom;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
 
 .gameBox img{
     position: relative;
-    left: 10%;
-    width: 80%;
+    display: block;
+    width: inherit;
+    margin-left: 0px;
+    padding-left: 0px;
+    height: 300px;
     margin-top: 5px;
+    left: inherit;
 }
 
-@media only screen and (max-width: 853px) {
+#gameInfo p{
+text-align: center;
 }
 
-@media only screen and (max-width: 557px) {
+
+@media only screen and (max-width: 590px) {
+#gameInfo table td{
+    display: inline-block;
+    margin-left: 20px;
+    width: 100%;
+}
 }
